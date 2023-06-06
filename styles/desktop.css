@@ -1,0 +1,64 @@
+@import url(./styles.css);
+
+body {
+    display: grid;
+    place-content: center;
+    margin: auto;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    height: 100vh;
+}
+
+header,
+main,
+footer,
+aside {
+    max-width: 1024px;
+}
+
+header {
+    width: 100%;
+    margin-block-end: auto;
+}
+
+header img {
+    width: 20%;
+}
+
+main {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+section {
+    text-align: start;
+    margin: auto 0;
+    padding-inline: 4rem;
+}
+
+section h1 {
+    max-width: 40rem;
+    font-size: 2.8rem;
+    line-height: 4.4rem;
+}
+
+section p {
+    max-width: 46rem;
+
+}
+
+section button {
+    padding-inline: 6rem;
+}
+
+footer {
+    width: 100%;
+    text-align: end;
+    margin-inline: auto;
+}
+
+aside {
+    margin: auto;
+}
